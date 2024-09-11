@@ -29,7 +29,7 @@ while True:
             try:
                 # print(i)
                 num1 = int(usr_input.split(i)[0])
-                operator = i
+                operator = i #comment
                 num2 = int(usr_input.split(i)[1])
                 # print(operator, num1, num2)
                 if operator in add_list:
